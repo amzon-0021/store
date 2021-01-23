@@ -5,8 +5,9 @@ s = open("config.ini","w")
 s.write("""[Defalt]
 application = True
 Unsignedapplication = false
-nostoreapp = 
+nostoreapp = false
 appcmd = None""")
+print("再読み込みを行ってください")
 
 
 
