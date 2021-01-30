@@ -15,7 +15,7 @@ urllib.request.urlretrieve("https://github.com/amzon-0021/store/raw/main/update.
 config = configparser.ConfigParser()
 ###config.read('update.ini')
 config.readfp(codecs.open("update.ini", "r", "utf8"))
-print("ダウンロードするバージョンを選択してください(Ver.10.2以上のみ使用できます)")
+print("ダウンロードするバージョンを選択してください(Ver.10.3以上のみ使用できます)")
 for key in config['Defalt']:
     print(key)
 c = input(">>")
